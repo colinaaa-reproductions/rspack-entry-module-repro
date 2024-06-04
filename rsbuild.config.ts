@@ -5,5 +5,13 @@ export default defineConfig({
     distPath: {
       root: "./rsbuild-dist",
     },
+    minify: false,
+  },
+  tools: {
+    rspack: {
+      optimization: {
+        concatenateModules: true,
+      },
+    },
   },
 });

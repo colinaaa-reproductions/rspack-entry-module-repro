@@ -1,3 +1,3 @@
-import('./render').then(exports => {
-    exports.render()
-})
+import isBuffer from "./isBuffer";
+
+console.log(isBuffer);
